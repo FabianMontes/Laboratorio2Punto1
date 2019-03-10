@@ -1,0 +1,108 @@
+punto 1 Almacen robotizado
+
+1.
+
+vende diversos productos 
+
+
+
+cada producto debe ser almacenado en algun estante //
+
+cada estante tiene 3 cajas con 7 espacios que almacenan los productos //
+
+estante -> caja -> producto
+
+los estantes son representados por robots
+
+2.
+
+se puede almacenar productos en los estantes
+
+un empleado almacena los productos
+
+para hacerlo se requiere:
+
+un robot trae el estante a donde se encuentra el empleado
+
+// pueden existir multiple robots moviendose simultaneamente
+
+3.
+
+la compa�ia debe tener un sistema de pedidos
+
+pedido es realizado por cliente
+
+el cliente puede ordenar tantos productos como quiera
+
+4.
+
+el sistema a dise�ar en los pedidos, debe:
+
+identificar el estante donde esta el producto
+
+dar ordenes a los robots para traer los estantes con los productos,
+cuando se finalize con un estante el robot regresa
+
+5.
+
+el sistema genera factura para cada uno de los pedidos de clientes
+
+debe indicar a un robot que lleve el pedido a la zona de envio de producto
+
+un empleado toma pedido y indica a robot que regrese a su zona de parqueo
+
+6. condiciones: 
+
+-los robots deben moverse concurrentemente, existen tantos robots como estantes
+
+-no puede haber colision de robots
+
+-existe una zona de parqueo de Robots max 10
+
+-la bodega tiene espacio para aproximadamente 20 estantes
+
+nosotros(ya sabeis) debemos, presentar una propuesta, que de solucion a todo lo anotado
+usando karel. debe tener en cuenta todos los movimientos de los robots
+
+1. solicitar el almacenamiento de productos en estantes
+
+el empleado indica que grupo de cosas quiere registrar y 
+el sistema debe ordenar que los robots se almacenen  los productos y vayan
+a la zona de empaque
+
+cuando se solicita se debe ver graficamente como los robots van a la zona de almacenamiento y hacen cola para que los empleados ubiquen los productos
+
+2.
+
+solicitar pedido en este caso se solicita uno o vario pedidos, 
+el sistema debe:
+
+seleccionar los estantes donde estan los productos disponibles
+y debe dar orden a los robots para que un empleado obtenga los productos
+
+evidentemente los productos salen del inventario 
+
+3.
+
+se debe generar una factura 
+
+y se debe ordenar a un robot que lleve el pedido a la zona de envio
+
+// nota: puede asumir elementos adicionales con el fin de tener un correcto funcionamiento de la situacion planteada (usar POO)
+
+debe entregar:
+
+1. Dise�o: diagrama de clases de analisis
+
+2. diagrama de clases de dise�o
+
+3. Codigo fuente
+
+4. jar ejecutable
+
+
+// Datos agregables de apoyo del anterior (si encuentro)
+
+solo un robot toma un estante
+
+
